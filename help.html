@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/help.css">
+  <title>Auto Refresh & Click</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h2>Auto Refresh & Click</h2>
+
+    <button class="accordion">How to use?</button>
+    <div class="panel">
+      <p>1. Enter the Text to be converted to Video and click "Convert".</p>
+      <p>2. Share the video with your friends or save it to local.</p>
+      <p>3. Your friends: get it and select it in "QR Video to Text".</p>
+      <p>4. The message will be automatically communicated to them.</p>
+    </div>
+
+    <br />
+    <div class="footer">If you have any questions, don’t hesitate to contact our Support service -
+      cameoshell09@gmail.com</div>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+    acc[0].click();
+  </script>
+</body>
+
+</html>
