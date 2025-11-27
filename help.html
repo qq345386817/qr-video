@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-  
+
   <link rel="stylesheet" href="style/base.css">
   <link rel="stylesheet" href="style/help.css">
   <title>QR Video Creator</title>
@@ -17,38 +17,104 @@
 
 <body>
   <div class="wrapper">
-    <h2>QR Video Creator</h2>
+    <div class="language-switcher">
+      <select id="langSelect" class="lang-select" onchange="switchLang(this.value)">
+        <option value="en">English</option>
+        <option value="zh-Hans">简体中文</option>
+        <option value="zh-Hant">繁體中文</option>
+      </select>
+    </div>
 
-    <button class="accordion">How to use?</button>
-    <div class="panel">
+    <!-- English Content -->
+    <div id="en" class="lang-section active">
+      <h2>QR Video Creator</h2>
+
+      <h3>How to use?</h3>
       <p>1. Enter the Text to be converted to Video and click "Convert".</p>
       <p>2. Share the video with your friends or save it to local.</p>
       <p>3. Your friends: get it and select it in "QR Video to Text".</p>
       <p>4. The message will be automatically communicated to them.</p>
+
+      <h3>How to use Share Extension?</h3>
+      <p>1. Open a QR video in other apps (like Photos or Files).</p>
+      <p>2. Tap the system "Share" button.</p>
+      <p>3. Find and tap "QR Video Decoder" in the share sheet.</p>
+      <p>4. The app will automatically decode and show the hidden message.</p>
+
+      <div class="footer">If you have any questions, don’t hesitate to contact our Support service -
+        cameoshell09@gmail.com</div>
     </div>
 
-    <br />
-    <div class="footer">If you have any questions, don’t hesitate to contact our Support service -
-      cameoshell09@gmail.com</div>
+    <!-- Simplified Content -->
+    <div id="zh-Hans" class="lang-section">
+      <h2>飞码传书</h2>
+
+      <h3>如何使用？</h3>
+      <p>1. 输入要转换为视频的文本，然后点击“转换”。</p>
+      <p>2. 将视频分享给您的朋友或保存到本地。</p>
+      <p>3. 您的朋友：收到视频后，在“二维码视频解码”中选择它。</p>
+      <p>4. 隐藏的信息将自动显示出来。</p>
+
+      <h3>如何使用分享扩展？</h3>
+      <p>1. 在其他应用（如照片或文件）中打开二维码视频。</p>
+      <p>2. 点击系统的“分享”按钮。</p>
+      <p>3. 在分享菜单中找到并点击“二维码视频解码”。</p>
+      <p>4. 应用将自动解码并显示隐藏的信息。</p>
+
+      <div class="footer">如果您有任何问题，请随时联系我们的支持服务 -
+        cameoshell09@gmail.com</div>
+    </div>
+
+    <!-- Traditional Content -->
+    <div id="zh-Hant" class="lang-section">
+      <h2>飛碼傳書</h2>
+
+      <h3>如何使用？</h3>
+      <p>1. 輸入要轉換為影片的文字，然後點擊「轉換」。</p>
+      <p>2. 將影片分享給您的朋友或儲存到本地。</p>
+      <p>3. 您的朋友：收到影片後，在「二維碼影片解碼」中選擇它。</p>
+      <p>4. 隱藏的訊息將自動顯示出來。</p>
+
+      <h3>如何使用分享擴充功能？</h3>
+      <p>1. 在其他應用程式（如照片或檔案）中打開二維碼影片。</p>
+      <p>2. 點擊系統的「分享」按鈕。</p>
+      <p>3. 在分享選單中找到並點擊「二維碼影片解碼」。</p>
+      <p>4. 應用程式將自動解碼並顯示隱藏的訊息。</p>
+
+      <div class="footer">如果您有任何問題，請隨時聯繫我們的支援服務 -
+        cameoshell09@gmail.com</div>
+    </div>
+
   </div>
 
   <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+    function switchLang(lang) {
+      // Hide all sections
+      var sections = document.getElementsByClassName("lang-section");
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].classList.remove("active");
+      }
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
+      // Show selected section
+      document.getElementById(lang).classList.add("active");
+
+      // Update select value (in case called programmatically)
+      document.getElementById('langSelect').value = lang;
     }
 
-    acc[0].click();
+    // Detect system language on load
+    document.addEventListener('DOMContentLoaded', function () {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.startsWith('zh')) {
+        if (userLang.includes('Hant') || userLang.includes('TW') || userLang.includes('HK')) {
+          switchLang('zh-Hant');
+        } else {
+          switchLang('zh-Hans');
+        }
+      } else {
+        switchLang('en');
+      }
+    });
   </script>
 </body>
 
