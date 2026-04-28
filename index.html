@@ -4,33 +4,469 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta name="description" content="Secret Video Message helps you hide a message in a video, send a private video message, and reveal hidden text later on iPhone, iPad, and Mac.">
+  <meta name="keywords" content="hide message in video, secret video message, private video message, hidden message app, reveal hidden message, QR video message">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://luopeike.com/qr-video/index.html">
+  <link rel="alternate" hreflang="en" href="https://luopeike.com/qr-video/index.html?lang=en">
+  <link rel="alternate" hreflang="zh-CN" href="https://luopeike.com/qr-video/index.html?lang=zh-Hans">
+  <link rel="alternate" hreflang="zh-TW" href="https://luopeike.com/qr-video/index.html?lang=zh-Hant">
+  <link rel="alternate" hreflang="x-default" href="https://luopeike.com/qr-video/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Secret Video Message, hide a message in a video">
+  <meta property="og:description" content="Create a private video message, hide text inside a video, and reveal the hidden message later with Secret Video Message.">
+  <meta property="og:url" content="https://luopeike.com/qr-video/index.html">
+  <meta property="og:site_name" content="Secret Video Message">
+  <meta property="og:image" content="https://luopeike.com/qr-video/favicon/android-chrome-512x512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Secret Video Message, hide a message in a video">
+  <meta name="twitter:description" content="Hide a private note inside a video and reveal it later on iPhone, iPad, and Mac.">
+  <meta name="twitter:image" content="https://luopeike.com/qr-video/favicon/android-chrome-512x512.png">
+  <meta name="theme-color" content="#6270c7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#120f22" media="(prefers-color-scheme: dark)">
+
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-  
+
   <link rel="stylesheet" href="style/base.css">
-  <title>QR Video Creator</title>
+  <title>Secret Video Message, Hide a Message in a Video</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Secret Video Message",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "iOS, iPadOS, macOS",
+      "description": "Secret Video Message lets you hide a message in a video, create a private video message, and reveal hidden text later.",
+      "url": "https://luopeike.com/qr-video/index.html",
+      "image": "https://luopeike.com/qr-video/favicon/android-chrome-512x512.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
   <style>
-    body {
+    .page {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 72px;
+    }
+
+    .hero {
+      padding: 28px;
+      border-radius: 28px;
+      background: var(--surface-color);
+      box-shadow: 0 18px 48px var(--shadow-color);
+      backdrop-filter: blur(18px);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-color);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.04;
+    }
+
+    .subhead {
+      margin-top: 14px;
+      max-width: 760px;
+      line-height: 1.72;
+      color: var(--muted-color);
+      font-size: 18px;
+    }
+
+    .actions {
       display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-flex;
       align-items: center;
-      flex-direction: column;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .button.primary {
+      background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-strong) 100%);
+      color: #fff;
+    }
+
+    .button.secondary {
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+    }
+
+    .preview {
+      margin-top: 28px;
+      overflow: hidden;
+      border-radius: 24px;
+      background: var(--media-bg);
+    }
+
+    video {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: var(--media-bg);
+    }
+
+    .section {
+      margin-top: 22px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 20px;
+      background: var(--surface-color);
+      box-shadow: 0 12px 36px var(--shadow-color);
+    }
+
+    .card h2,
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    .card p,
+    .card li {
+      margin: 0;
+      line-height: 1.68;
+      color: var(--muted-color);
+    }
+
+    .card ul {
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: var(--muted-color);
+    }
+
+    .lang-section {
+      display: none;
+    }
+
+    .lang-section.active {
+      display: block;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .subhead,
+      .card p,
+      .card li,
+      .footer {
+        color: var(--muted-color);
+      }
+
+      .button.secondary {
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--accent-color);
+      }
     }
   </style>
 </head>
 
 <body>
-  <h2>QR Video Creator</h2>
-  <video width="960" height="540" controls autoplay>
-    <source src="./videos/iPad-en-1600_1200.mov" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <main class="page">
+    <div class="topbar">
+      <nav class="site-nav" aria-label="Primary">
+        <a id="nav-home" class="active" href="index.html">Home</a>
+        <a id="nav-help" href="help.html">Help</a>
+        <a id="nav-privacy" href="privacy-policy.html">Privacy</a>
+      </nav>
 
-  <br />
-  <div>If you have any questions, don’t hesitate to contact our Support service -
-    cameoshell09@gmail.com</div>
+      <div class="language-switcher">
+        <select id="langSelect" class="lang-select" onchange="switchLang(this.value)">
+          <option value="en">English</option>
+          <option value="zh-Hans">简体中文</option>
+          <option value="zh-Hant">繁體中文</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="en" class="lang-section active">
+      <section class="hero">
+        <p class="eyebrow">Secret Video Message</p>
+        <h1>Hide a message in a video, then reveal the hidden note later.</h1>
+        <p class="subhead">
+          Secret Video Message is a private video message app for iPhone, iPad, and Mac. You can hide text inside a video,
+          send a message video that looks ordinary at a glance, and reveal the hidden message later when the moment feels right.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="help.html">Help &amp; Support</a>
+          <a class="button secondary" href="privacy-policy.html">Privacy Policy</a>
+          <a class="button secondary" href="mailto:cameoshell09@gmail.com">Contact Support</a>
+        </div>
+
+        <div class="preview">
+          <video width="960" height="540" controls>
+            <source src="./videos/iPad-en-1600_1200.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h2>Hide a message in a video</h2>
+          <p>Write a note, choose a mood, and turn it into a private video message that still looks ordinary at a glance.</p>
+        </article>
+        <article class="card">
+          <h2>Reveal a hidden message</h2>
+          <p>Import the message video again and the hidden text comes back into view inside the app.</p>
+        </article>
+        <article class="card">
+          <h2>Best for private video messages</h2>
+          <p>Private notes, inside jokes, small surprises, quiet check-ins, and playful ways to send something personal.</p>
+        </article>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h3>Works across iPhone, iPad, and Mac</h3>
+          <p>Create and reveal hidden message videos across Apple devices with one consistent flow.</p>
+        </article>
+        <article class="card">
+          <h3>Simple hidden message workflow</h3>
+          <p>No complicated setup, no accounts, just a direct way to hide a note in video and bring it back later.</p>
+        </article>
+        <article class="card">
+          <h3>Need help with Secret Video Message?</h3>
+          <ul>
+            <li>Read the step-by-step guide on the Help page</li>
+            <li>Review privacy details before downloading</li>
+            <li>Email support if something feels off</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <article class="card">
+          <h2>What is Secret Video Message?</h2>
+          <p>Secret Video Message is a hidden message app that lets you turn text into a shareable video and later reveal the hidden text from that video. It is designed for private video messages, playful reveals, and low-friction personal communication without accounts or complicated setup.</p>
+        </article>
+      </section>
+
+      <div class="footer-bar footer">
+        <span id="footer-note-en">Secret Video Message, support, privacy, and product information.</span>
+        <div class="footer-links">
+          <a id="footer-home-en" href="index.html">Home</a>
+          <a id="footer-help-en" href="help.html">Help</a>
+          <a id="footer-privacy-en" href="privacy-policy.html">Privacy</a>
+          <a id="footer-contact-en" href="mailto:cameoshell09@gmail.com">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="zh-Hans" class="lang-section">
+      <section class="hero">
+        <p class="eyebrow">视频密信</p>
+        <h1>把一句留言藏进普通视频里，再在之后把它显示出来。</h1>
+        <p class="subhead">
+          视频密信适合用来把一句私密留言、一个线索，或一份小惊喜隐藏进视频里。你可以生成可分享的视频留言，再在合适的时候把隐藏消息找回来。
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="help.html">帮助与支持</a>
+          <a class="button secondary" href="privacy-policy.html">隐私政策</a>
+          <a class="button secondary" href="mailto:cameoshell09@gmail.com">联系支持</a>
+        </div>
+
+        <div class="preview">
+          <video width="960" height="540" controls>
+            <source src="./videos/iPad-en-1600_1200.mp4" type="video/mp4">
+            你的浏览器暂不支持视频播放。
+          </video>
+        </div>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h2>把消息隐藏进视频</h2>
+          <p>写下一句留言，选一个你喜欢的场景风格，再把它变成看起来很普通的视频。</p>
+        </article>
+        <article class="card">
+          <h2>之后再查看隐藏消息</h2>
+          <p>把密信视频重新导入 App，里面藏着的文字就会再次显示出来。</p>
+        </article>
+        <article class="card">
+          <h2>适合私密视频留言</h2>
+          <p>留一句私密的话，藏一个梗、一个提示，或者用更有趣的方式发一条消息。</p>
+        </article>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h3>多设备可用</h3>
+          <p>在 iPhone、iPad 和 Mac 上都可以用同一套流程来生成和查看密信视频。</p>
+        </article>
+        <article class="card">
+          <h3>上手很直接</h3>
+          <p>不需要复杂设置，也不需要账号，打开就能把一句话藏进视频里。</p>
+        </article>
+        <article class="card">
+          <h3>需要帮助？</h3>
+          <ul>
+            <li>可以先看帮助页里的分步说明</li>
+            <li>下载前可先阅读隐私政策</li>
+            <li>遇到问题也可以直接发邮件联系支持</li>
+          </ul>
+        </article>
+      </section>
+
+      <div class="footer-bar footer">
+        <span id="footer-note-zh-Hans">视频密信的帮助、隐私和产品信息。</span>
+        <div class="footer-links">
+          <a id="footer-home-zh-Hans" href="index.html">首页</a>
+          <a id="footer-help-zh-Hans" href="help.html">帮助</a>
+          <a id="footer-privacy-zh-Hans" href="privacy-policy.html">隐私</a>
+          <a id="footer-contact-zh-Hans" href="mailto:cameoshell09@gmail.com">联系支持</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="zh-Hant" class="lang-section">
+      <section class="hero">
+        <p class="eyebrow">視頻密信</p>
+        <h1>把一句留言藏進普通影片裡，再在之後把它顯示出來。</h1>
+        <p class="subhead">
+          視頻密信適合用來把一句私密留言、一個線索，或一份小驚喜隱藏進影片裡。你可以生成可分享的影片留言，再在合適的時候把隱藏訊息找回來。
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="help.html">幫助與支援</a>
+          <a class="button secondary" href="privacy-policy.html">隱私政策</a>
+          <a class="button secondary" href="mailto:cameoshell09@gmail.com">聯絡支援</a>
+        </div>
+
+        <div class="preview">
+          <video width="960" height="540" controls>
+            <source src="./videos/iPad-en-1600_1200.mp4" type="video/mp4">
+            你的瀏覽器暫不支援影片播放。
+          </video>
+        </div>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h2>把訊息隱藏進影片</h2>
+          <p>寫下一句留言，選一個你喜歡的場景風格，再把它變成看起來很普通的影片。</p>
+        </article>
+        <article class="card">
+          <h2>之後再查看隱藏訊息</h2>
+          <p>把密信影片重新匯入 App，裡面藏著的文字就會再次顯示出來。</p>
+        </article>
+        <article class="card">
+          <h2>適合私密影片留言</h2>
+          <p>留一句私密的話，藏一個梗、一個提示，或用更有趣的方式發一條訊息。</p>
+        </article>
+      </section>
+
+      <section class="grid section">
+        <article class="card">
+          <h3>多裝置可用</h3>
+          <p>在 iPhone、iPad 和 Mac 上都可以用同一套流程來生成和查看密信影片。</p>
+        </article>
+        <article class="card">
+          <h3>上手很直接</h3>
+          <p>不需要複雜設定，也不需要帳號，打開就能把一句話藏進影片裡。</p>
+        </article>
+        <article class="card">
+          <h3>需要幫助？</h3>
+          <ul>
+            <li>可以先看幫助頁裡的分步說明</li>
+            <li>下載前可先閱讀隱私政策</li>
+            <li>遇到問題也可以直接寄信聯絡支援</li>
+          </ul>
+        </article>
+      </section>
+
+      <div class="footer-bar footer">
+        <span id="footer-note-zh-Hant">視頻密信的幫助、隱私與產品資訊。</span>
+        <div class="footer-links">
+          <a id="footer-home-zh-Hant" href="index.html">首頁</a>
+          <a id="footer-help-zh-Hant" href="help.html">幫助</a>
+          <a id="footer-privacy-zh-Hant" href="privacy-policy.html">隱私</a>
+          <a id="footer-contact-zh-Hant" href="mailto:cameoshell09@gmail.com">聯絡支援</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function switchLang(lang) {
+      var sections = document.getElementsByClassName("lang-section");
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].classList.remove("active");
+      }
+      document.getElementById(lang).classList.add("active");
+      document.getElementById('langSelect').value = lang;
+      document.documentElement.lang = lang === 'zh-Hans' ? 'zh-CN' : (lang === 'zh-Hant' ? 'zh-Hant' : 'en');
+
+      var labels = {
+        en: { home: 'Home', help: 'Help', privacy: 'Privacy' },
+        'zh-Hans': { home: '首页', help: '帮助', privacy: '隐私' },
+        'zh-Hant': { home: '首頁', help: '幫助', privacy: '隱私' }
+      };
+
+      document.getElementById('nav-home').textContent = labels[lang].home;
+      document.getElementById('nav-help').textContent = labels[lang].help;
+      document.getElementById('nav-privacy').textContent = labels[lang].privacy;
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var supportedLangs = ['en', 'zh-Hans', 'zh-Hant'];
+      var requestedLang = new URLSearchParams(window.location.search).get('lang');
+      if (supportedLangs.indexOf(requestedLang) !== -1) {
+        switchLang(requestedLang);
+        return;
+      }
+
+      var userLang = navigator.language || navigator.userLanguage || 'en';
+      if (userLang.startsWith('zh')) {
+        if (userLang.includes('Hant') || userLang.includes('TW') || userLang.includes('HK')) {
+          switchLang('zh-Hant');
+        } else {
+          switchLang('zh-Hans');
+        }
+      } else {
+        switchLang('en');
+      }
+    });
+  </script>
 </body>
 
 </html>
