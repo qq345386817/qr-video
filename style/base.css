@@ -113,6 +113,13 @@ h3 {
   font-size: 20px;
 }
 
+h1 {
+  margin: 0 0 16px;
+  color: var(--text-color);
+  font-size: clamp(34px, 6vw, 52px);
+  line-height: 1.08;
+}
+
 p,
 div,
 li {
@@ -153,6 +160,57 @@ strong {
   text-decoration: none;
 }
 
+.article {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.article .lead {
+  margin: 0 0 24px;
+  color: var(--muted-color);
+  font-size: 19px;
+}
+
+.article section {
+  margin-top: 28px;
+}
+
+.article h2 {
+  font-size: clamp(24px, 4vw, 32px);
+}
+
+.steps {
+  display: grid;
+  gap: 10px;
+  padding-left: 22px;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.link-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid var(--surface-border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.48);
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.link-card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.link-card span {
+  color: var(--muted-color);
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     --bg-color: #120f22;
@@ -168,5 +226,9 @@ strong {
     --media-bg: #0f0b1d;
 
     background: linear-gradient(180deg, #120f22 0%, #1d1630 58%, #211d31 100%);
+  }
+
+  .link-card {
+    background: rgba(255, 255, 255, 0.06);
   }
 }
