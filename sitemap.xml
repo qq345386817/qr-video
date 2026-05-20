@@ -1,39 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://luopeike.com/qr-video/index.html</loc>
+    <loc>https://qr-video.luopeike.com/index.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/index.html?lang=en</loc>
+    <loc>https://qr-video.luopeike.com/help.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/index.html?lang=zh-Hans</loc>
+    <loc>https://qr-video.luopeike.com/support.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/index.html?lang=zh-Hant</loc>
+    <loc>https://qr-video.luopeike.com/privacy-policy.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/help.html</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hans/index.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/help.html?lang=en</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hans/help.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/help.html?lang=zh-Hans</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hans/support.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/help.html?lang=zh-Hant</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hans/privacy-policy.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/privacy-policy.html</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hant/index.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/privacy-policy.html?lang=en</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hant/help.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/privacy-policy.html?lang=zh-Hans</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hant/support.html</loc>
   </url>
   <url>
-    <loc>https://luopeike.com/qr-video/privacy-policy.html?lang=zh-Hant</loc>
+    <loc>https://qr-video.luopeike.com/zh-Hant/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/index.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/help.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/support.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/index.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/help.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/support.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/index.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/help.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/support.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ar/index.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ar/help.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ar/support.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ar/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hi/index.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hi/help.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hi/support.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hi/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hide-message-in-video.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/reveal-hidden-message-video.html</loc>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/private-video-message-app.html</loc>
   </url>
 </urlset>

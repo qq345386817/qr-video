@@ -7,17 +7,22 @@
   <meta name="description" content="Secret Video Message help, including how to hide a message in a video, reveal hidden text, use the Share Extension, and fix common hidden video message issues.">
   <meta name="keywords" content="secret video message help, hide message in video help, reveal hidden message, private video message support, share extension help">
   <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://luopeike.com/qr-video/help.html">
-  <link rel="alternate" hreflang="en" href="https://luopeike.com/qr-video/help.html?lang=en">
-  <link rel="alternate" hreflang="zh-CN" href="https://luopeike.com/qr-video/help.html?lang=zh-Hans">
-  <link rel="alternate" hreflang="zh-TW" href="https://luopeike.com/qr-video/help.html?lang=zh-Hant">
-  <link rel="alternate" hreflang="x-default" href="https://luopeike.com/qr-video/help.html">
+  <link rel="canonical" href="https://qr-video.luopeike.com/help.html">
+  <link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html">
+  <link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html">
+  <link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html">
+  <link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html">
+  <link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html">
+  <link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html">
+  <link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Secret Video Message Help and Support">
   <meta property="og:description" content="Learn how to hide a message in a video, reveal hidden text later, and use the Share Extension in Secret Video Message.">
-  <meta property="og:url" content="https://luopeike.com/qr-video/help.html">
+  <meta property="og:url" content="https://qr-video.luopeike.com/help.html">
   <meta property="og:site_name" content="Secret Video Message">
-  <meta property="og:image" content="https://luopeike.com/qr-video/favicon/android-chrome-512x512.png">
+  <meta property="og:image" content="https://qr-video.luopeike.com/favicon/android-chrome-512x512.png">
   <meta name="theme-color" content="#6270c7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#120f22" media="(prefers-color-scheme: dark)">
 
@@ -68,14 +73,20 @@
       <nav class="site-nav" aria-label="Primary">
         <a id="nav-home" href="index.html">Home</a>
         <a id="nav-help" class="active" href="help.html">Help</a>
+        <a id="nav-support" href="support.html">Support</a>
         <a id="nav-privacy" href="privacy-policy.html">Privacy</a>
       </nav>
 
       <div class="language-switcher">
-        <select id="langSelect" class="lang-select" onchange="switchLang(this.value)">
-          <option value="en">English</option>
-          <option value="zh-Hans">简体中文</option>
-          <option value="zh-Hant">繁體中文</option>
+        <select id="langSelect" class="lang-select" aria-label="Language" onchange="if (this.value) window.location.href=this.value">
+          <option value="help.html" selected>English</option>
+          <option value="zh-Hans/help.html">简体中文</option>
+          <option value="zh-Hant/help.html">繁體中文</option>
+          <option value="ru/help.html">Русский</option>
+          <option value="es-ES/help.html">Español</option>
+          <option value="de-DE/help.html">Deutsch</option>
+          <option value="ar/help.html">العربية</option>
+          <option value="hi/help.html">हिन्दी</option>
         </select>
       </div>
     </div>
@@ -110,11 +121,32 @@
       <p><strong>I cannot find the Share Extension.</strong><br>Open the share sheet, scroll through the app list, and make sure the extension is enabled on your device.</p>
       <p><strong>The recovered message looks incomplete.</strong><br>Try the original video again instead of a recompressed copy from another service or app.</p>
 
+      <h2>Related guides</h2>
+      <div class="link-grid">
+        <a class="link-card" href="hide-message-in-video.html">
+          <strong>How to hide a message in a video</strong>
+          <span>Make a hidden note video step by step.</span>
+        </a>
+        <a class="link-card" href="reveal-hidden-message-video.html">
+          <strong>How to reveal a hidden message from a video</strong>
+          <span>Recover the text from a Secret Video Message file.</span>
+        </a>
+        <a class="link-card" href="private-video-message-app.html">
+          <strong>Private video message app ideas</strong>
+          <span>Use hidden message videos for surprises, clues, and quiet notes.</span>
+        </a>
+        <a class="link-card" href="https://apps.apple.com/app/id6504264474" target="_blank" rel="noopener">
+          <strong>Download on the App Store</strong>
+          <span>Get Secret Video Message for iPhone, iPad, and Mac.</span>
+        </a>
+      </div>
+
       <div class="footer-bar footer">
         <span id="footer-note-en">Need help? Contact support at <a href="mailto:cameoshell09@gmail.com">cameoshell09@gmail.com</a></span>
         <div class="footer-links">
           <a id="footer-home-en" href="index.html">Home</a>
           <a id="footer-help-en" href="help.html">Help</a>
+          <a id="footer-support-en" href="support.html">Support</a>
           <a id="footer-privacy-en" href="privacy-policy.html">Privacy</a>
           <a id="footer-contact-en" href="mailto:cameoshell09@gmail.com">Contact</a>
         </div>
@@ -156,6 +188,7 @@
         <div class="footer-links">
           <a id="footer-home-zh-Hans" href="index.html">首页</a>
           <a id="footer-help-zh-Hans" href="help.html">帮助</a>
+          <a id="footer-support-zh-Hans" href="support.html">支持</a>
           <a id="footer-privacy-zh-Hans" href="privacy-policy.html">隐私</a>
           <a id="footer-contact-zh-Hans" href="mailto:cameoshell09@gmail.com">联系支持</a>
         </div>
@@ -197,6 +230,7 @@
         <div class="footer-links">
           <a id="footer-home-zh-Hant" href="index.html">首頁</a>
           <a id="footer-help-zh-Hant" href="help.html">幫助</a>
+          <a id="footer-support-zh-Hant" href="support.html">支援</a>
           <a id="footer-privacy-zh-Hant" href="privacy-policy.html">隱私</a>
           <a id="footer-contact-zh-Hant" href="mailto:cameoshell09@gmail.com">聯絡支援</a>
         </div>
@@ -204,48 +238,6 @@
     </div>
 
   </div>
-
-  <script>
-    function switchLang(lang) {
-      var sections = document.getElementsByClassName("lang-section");
-      for (var i = 0; i < sections.length; i++) {
-        sections[i].classList.remove("active");
-      }
-      document.getElementById(lang).classList.add("active");
-      document.getElementById('langSelect').value = lang;
-      document.documentElement.lang = lang === 'zh-Hans' ? 'zh-CN' : (lang === 'zh-Hant' ? 'zh-Hant' : 'en');
-
-      var labels = {
-        en: { home: 'Home', help: 'Help', privacy: 'Privacy' },
-        'zh-Hans': { home: '首页', help: '帮助', privacy: '隐私' },
-        'zh-Hant': { home: '首頁', help: '幫助', privacy: '隱私' }
-      };
-
-      document.getElementById('nav-home').textContent = labels[lang].home;
-      document.getElementById('nav-help').textContent = labels[lang].help;
-      document.getElementById('nav-privacy').textContent = labels[lang].privacy;
-    }
-
-    document.addEventListener('DOMContentLoaded', function () {
-      var supportedLangs = ['en', 'zh-Hans', 'zh-Hant'];
-      var requestedLang = new URLSearchParams(window.location.search).get('lang');
-      if (supportedLangs.indexOf(requestedLang) !== -1) {
-        switchLang(requestedLang);
-        return;
-      }
-
-      var userLang = navigator.language || navigator.userLanguage || 'en';
-      if (userLang.startsWith('zh')) {
-        if (userLang.includes('Hant') || userLang.includes('TW') || userLang.includes('HK')) {
-          switchLang('zh-Hant');
-        } else {
-          switchLang('zh-Hans');
-        }
-      } else {
-        switchLang('en');
-      }
-    });
-  </script>
 </body>
 
 </html>

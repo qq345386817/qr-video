@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luopeike.com/qr-video/sitemap.xml
+Sitemap: https://qr-video.luopeike.com/sitemap.xml
