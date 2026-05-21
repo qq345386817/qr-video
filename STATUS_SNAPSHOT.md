@@ -52,7 +52,7 @@ Shared styling:
 
 Media:
 
-- `videos/iPad-en-1600_1200.mp4`
+- No standalone landing-page video assets are currently used.
 
 Favicon / manifest:
 
@@ -127,41 +127,19 @@ Old references to:
 
 were replaced in the website, app About links, and Fastlane metadata.
 
-### 4. Video converted from MOV to MP4
+### 4. Outdated landing-page video removed
 
-Old:
+The old landing-page video asset and embedded video players were removed because the video content no longer reflects the current app.
 
-- `videos/iPad-en-1600_1200.mov`
-
-New:
+Removed:
 
 - `videos/iPad-en-1600_1200.mp4`
 
-Conversion command used conceptually:
+`index.html` no longer embeds a demo video.
 
-```bash
-ffmpeg -i videos/iPad-en-1600_1200.mov -map 0 -c copy -movflags +faststart videos/iPad-en-1600_1200.mp4
-```
+### 5. Unused video styling removed
 
-Result:
-
-- H.264 video
-- AAC audio
-- 1600 × 1200
-- About 26.7 seconds
-- About 10 MB
-
-`index.html` now references the MP4 file with `type="video/mp4"`.
-
-### 5. Autoplay removed
-
-`index.html` video tags now use:
-
-```html
-<video width="960" height="540" controls>
-```
-
-No `autoplay` remains.
+The shared `style/base.css` image reset no longer includes a global `video` selector.
 
 ### 6. Unused `style/help.css` removed
 
@@ -295,6 +273,7 @@ Deleted:
 
 - `style/help.css`
 - `videos/iPad-en-1600_1200.mov`
+- `videos/iPad-en-1600_1200.mp4`
 
 Untracked / should be added if publishing this update:
 
