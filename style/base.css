@@ -25,8 +25,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-img,
-video {
+img {
   display: block;
   max-width: 100%;
   height: auto;
