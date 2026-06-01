@@ -1,108 +1,501 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qr-video.luopeike.com/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hans/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hans/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hans/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hans/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hant/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hant/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hant/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/zh-Hant/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ru/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ru/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ru/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ru/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/es-ES/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/es-ES/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/es-ES/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/es-ES/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/de-DE/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/de-DE/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/de-DE/support.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/de-DE/privacy-policy.html</loc>
+    <loc>https://qr-video.luopeike.com/ar/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/ar/index.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ar/help.html</loc>
-  </url>
-  <url>
-    <loc>https://qr-video.luopeike.com/ar/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/ar/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://qr-video.luopeike.com/hi/index.html</loc>
+    <loc>https://qr-video.luopeike.com/ar/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/de-DE/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/es-ES/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/hi/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://qr-video.luopeike.com/hi/support.html</loc>
+    <loc>https://qr-video.luopeike.com/hi/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/hi/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/hi/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/hide-message-in-video.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://qr-video.luopeike.com/reveal-hidden-message-video.html</loc>
+    <loc>https://qr-video.luopeike.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://qr-video.luopeike.com/private-video-message-app.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/reveal-hidden-message-video.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/ru/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hans/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hans/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hans/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hans/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hant/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/help.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/help.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/help.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/help.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/help.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/help.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/help.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/help.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hant/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/index.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/index.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/index.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/index.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hant/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/privacy-policy.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://qr-video.luopeike.com/zh-Hant/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qr-video.luopeike.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://qr-video.luopeike.com/zh-Hans/support.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://qr-video.luopeike.com/zh-Hant/support.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://qr-video.luopeike.com/ru/support.html" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://qr-video.luopeike.com/es-ES/support.html" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://qr-video.luopeike.com/de-DE/support.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qr-video.luopeike.com/ar/support.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://qr-video.luopeike.com/hi/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qr-video.luopeike.com/support.html" />
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

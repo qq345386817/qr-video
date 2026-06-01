@@ -1,6 +1,9 @@
 {
   "name": "Secret Video Message",
   "short_name": "Secret Video",
+  "description": "Hide a message in a video, send a private video message, and reveal the hidden text later on iPhone, iPad, and Mac.",
+  "start_url": "/index.html",
+  "scope": "/",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
