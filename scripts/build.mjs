@@ -33,6 +33,13 @@ for (const family of ['spacing', 'radius']) {
 }
 generated += `}\n@media(prefers-color-scheme:dark){:root{${themeRules('dark')}}}\n${await read('style/base.css')}`;
 const fingerprint = (source) => createHash('sha256').update(source).digest('hex').slice(0, 12);
+const imageVersions = new Map();
+for (const locale of locales) {
+  for (const scene of ['create', 'reveal', 'history']) {
+    const image = `/images/app/${locale}-${scene}.webp`;
+    imageVersions.set(image, fingerprint(await readFile(path.join(root, image))));
+  }
+}
 const cssFile = `style/site.${fingerprint(generated)}.css`;
 const js = await read('script/site.js');
 const jsFile = `script/site.${fingerprint(js)}.js`;
@@ -57,7 +64,10 @@ function footer(locale) {
 
 function home(locale) {
   const text = copy[locale];
-  const shot = (scene) => `/images/app/${locale}-${scene}.webp`;
+  const shot = (scene) => {
+    const image = `/images/app/${locale}-${scene}.webp`;
+    return `${image}?v=${imageVersions.get(image)}`;
+  };
   const download = `<a class="button primary" href="https://apps.apple.com/app/id6504264474" target="_blank" rel="noopener noreferrer">${e(text.download)}${icon('arrow')}</a>`;
   return `<body class="home"><div class="wrapper">
   ${header(locale)}

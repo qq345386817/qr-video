@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { access, readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -86,7 +87,13 @@ for (const locale of Object.keys(copy)) {
   assert.equal(text.steps.length, 3);
   assert.equal(text.faqs.length, 3);
   assert.equal(text.tabs.length, 3);
-  for (const scene of ['create', 'reveal', 'history']) await access(path.join(root, `images/app/${locale}-${scene}.webp`));
+  const home = await read(locale === 'en' ? 'index.html' : `${locale}/index.html`);
+  for (const scene of ['create', 'reveal', 'history']) {
+    const image = `images/app/${locale}-${scene}.webp`;
+    const data = await readFile(path.join(root, image));
+    const hash = createHash('sha256').update(data).digest('hex').slice(0, 12);
+    assert.ok(home.includes(`/${image}?v=${hash}`), `${locale}: stale ${scene} image fingerprint`);
+  }
 }
 const cssFile = (await readdir(path.join(root, 'style'))).find((file) => /^site\.[0-9a-f]{12}\.css$/.test(file));
 const css = await read(`style/${cssFile}`);

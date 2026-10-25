@@ -27,7 +27,9 @@ Commit generated HTML and fingerprinted runtime assets alongside their source. T
 
 ## Images and Fonts
 
-The 24 WebP images in `images/app/` come from the native App's existing 1.5.3 localized App Store captures: Create, Reveal and History in all 8 languages. They retain the original content and are downsampled to 660px wide at WebP quality 82. The hero uses CSS cropping to show the phone portion of the Create image. No interface is fabricated. All images total about 1.2 MB.
+The 24 WebP images in `images/app/` come from the native App's 1.6.0 localized App Store captures: Create, Reveal and History in all 8 languages. They retain the original content and are downsampled to 660px wide at WebP quality 82. The hero uses CSS cropping to show the phone portion of the Create image. No interface is fabricated. Each image URL includes its content fingerprint so browsers do not retain an older App interface after an update.
+
+After generating and visually checking fresh native store screenshots, run `node scripts/update-app-screenshots.mjs ../fastlane/screenshots`, then build and check again. All 24 inputs are required before any website image is replaced.
 
 Manrope is self-hosted in `design-system/fonts/` with its SIL Open Font License. No third-party font request is required by the production website. Chinese, Arabic and Hindi use platform fallback fonts.
 
