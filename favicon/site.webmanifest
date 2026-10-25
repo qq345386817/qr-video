@@ -2,7 +2,7 @@
   "name": "Secret Video Message",
   "short_name": "Secret Video",
   "description": "Hide a message in a video, send a private video message, and reveal the hidden text later on iPhone, iPad, and Mac.",
-  "start_url": "/index.html",
+  "start_url": "/",
   "scope": "/",
   "icons": [
     {
@@ -16,7 +16,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#6270c7",
-  "background_color": "#f6f5fb",
+  "theme_color": "#4f6f9f",
+  "background_color": "#f8f5ef",
   "display": "standalone"
 }

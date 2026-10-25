@@ -16,9 +16,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-  <meta name="theme-color" content="#6270c7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#120f22" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" href="style/base.css">
+  <meta name="theme-color" content="#4f6f9f" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1218" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="/style/site.421370a70e2c.css">
   <meta name="author" content="Peike Luo">
   <meta name="apple-itunes-app" content="app-id=6504264474">
   <meta property="og:site_name" content="Secret Video Message">
@@ -56,16 +56,14 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="topbar">
-      <nav class="site-nav" aria-label="Primary">
-        <a href="./">Home</a>
-        <a href="help">Help</a>
-        <a href="support">Support</a>
-        <a href="privacy-policy">Privacy</a>
-      </nav>
-    </div>
+    <a class="skip-link" href="#content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="/"><img src="/favicon/android-chrome-192x192.png" alt="" width="40" height="40"><span>Secret Video Message</span></a>
+    <nav class="site-nav" aria-label="Home"><a href="/">Home</a><a href="/help">Help</a><a href="/support">Support</a><a href="/privacy-policy">Privacy</a></nav>
+    <div class="language-switcher"><select class="lang-select" aria-label="Language" onchange="if(this.value)window.location.href=this.value"><option value="/" selected>English</option><option value="/zh-Hans/">简体中文</option><option value="/zh-Hant/">繁體中文</option><option value="/de-DE/">Deutsch</option><option value="/es-ES/">Español</option><option value="/ru/">Русский</option><option value="/ar/">العربية</option><option value="/hi/">हिन्दी</option></select></div>
+  </header>
 
-    <main class="lang-section active article">
+    <main id="content" class="lang-section active article">
       <h1>Private video message app for hidden notes</h1>
       <p class="lead">Secret Video Message is a playful way to send a note as a video, then reveal the hidden text later in the app.</p>
 

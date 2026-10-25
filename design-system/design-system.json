@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-25T09:53:00.764Z"
+  },
+  "title": "Secret Video Message",
+  "namespace": "SecretVideoMessage",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {
+    "readme": "README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Codex",
+    "at": "2026-10-25T10:10:22.965Z",
+    "via": "Local website redesign",
+    "note": "Validated both themes, native-app brand colors, accessible contrast, font assets and cover previews."
+  }
+}

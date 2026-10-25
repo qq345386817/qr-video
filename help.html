@@ -23,15 +23,15 @@
   <meta property="og:url" content="https://qr-video.luopeike.com/help">
   <meta property="og:site_name" content="Secret Video Message">
   <meta property="og:image" content="https://qr-video.luopeike.com/favicon/android-chrome-512x512.png">
-  <meta name="theme-color" content="#6270c7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#120f22" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#4f6f9f" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1218" media="(prefers-color-scheme: dark)">
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
 
-  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="/style/site.421370a70e2c.css">
   <meta name="author" content="Peike Luo">
   <meta name="apple-itunes-app" content="app-id=6504264474">
   <meta property="og:locale" content="en_US">
@@ -107,29 +107,14 @@
 
 <body>
   <div class="wrapper">
-    <div class="topbar">
-      <nav class="site-nav" aria-label="Primary">
-        <a id="nav-home" href="./">Home</a>
-        <a id="nav-help" class="active" href="help">Help</a>
-        <a id="nav-support" href="support">Support</a>
-        <a id="nav-privacy" href="privacy-policy">Privacy</a>
-      </nav>
+    <a class="skip-link" href="#content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="/"><img src="/favicon/android-chrome-192x192.png" alt="" width="40" height="40"><span>Secret Video Message</span></a>
+    <nav class="site-nav" aria-label="Home"><a href="/">Home</a><a class="active" aria-current="page" href="/help">Help</a><a href="/support">Support</a><a href="/privacy-policy">Privacy</a></nav>
+    <div class="language-switcher"><select class="lang-select" aria-label="Language" onchange="if(this.value)window.location.href=this.value"><option value="/help" selected>English</option><option value="/zh-Hans/help">简体中文</option><option value="/zh-Hant/help">繁體中文</option><option value="/de-DE/help">Deutsch</option><option value="/es-ES/help">Español</option><option value="/ru/help">Русский</option><option value="/ar/help">العربية</option><option value="/hi/help">हिन्दी</option></select></div>
+  </header>
 
-      <div class="language-switcher">
-        <select id="langSelect" class="lang-select" aria-label="Language" onchange="if (this.value) window.location.href=this.value">
-          <option value="help.html" selected>English</option>
-          <option value="zh-Hans/help.html">简体中文</option>
-          <option value="zh-Hant/help.html">繁體中文</option>
-          <option value="ru/help.html">Русский</option>
-          <option value="es-ES/help.html">Español</option>
-          <option value="de-DE/help.html">Deutsch</option>
-          <option value="ar/help.html">العربية</option>
-          <option value="hi/help.html">हिन्दी</option>
-        </select>
-      </div>
-    </div>
-
-    <div id="en" class="lang-section active">
+    <main id="content" class="lang-section active">
       <h1>Secret Video Message Help</h1>
 
       <h2>What it does</h2>
@@ -189,91 +174,7 @@
           <a id="footer-contact-en" href="mailto:cameoshell09@gmail.com">Contact</a>
         </div>
       </div>
-    </div>
-
-    <div id="zh-Hans" class="lang-section">
-      <h2>视频密信帮助</h2>
-
-      <h3>它能做什么</h3>
-      <p>这个 App 可以把一句留言隐藏进看起来普通的视频里，也可以在之后把隐藏消息重新显示出来。</p>
-
-      <h3>如何隐藏消息</h3>
-      <p>1. 打开<strong>隐藏消息</strong>页面。</p>
-      <p>2. 输入你想藏进去的文字。</p>
-      <p>3. 如果需要，可以选择一种场景风格。</p>
-      <p>4. 点击按钮生成密信视频。</p>
-      <p>5. 保存或分享导出后的视频。</p>
-
-      <h3>如何查看隐藏消息</h3>
-      <p>1. 打开<strong>查看隐藏消息</strong>页面。</p>
-      <p>2. 从照片或文件中选择一个密信视频。</p>
-      <p>3. 等待 App 读取其中的隐藏内容。</p>
-      <p>4. 查看或复制恢复出来的文字。</p>
-
-      <h3>如何使用分享扩展</h3>
-      <p>1. 在照片、文件等其他 App 中打开密信视频。</p>
-      <p>2. 点击系统分享按钮。</p>
-      <p>3. 在分享菜单中找到并点击<strong>显示隐藏消息</strong>。</p>
-      <p>4. 隐藏文字会在扩展页中显示出来，并可直接复制。</p>
-
-      <h3>常见问题</h3>
-      <p><strong>为什么读不出来？</strong><br>请确认你选择的是由视频密信生成的原始视频，再重新尝试一次。</p>
-      <p><strong>为什么找不到分享扩展？</strong><br>请先打开系统分享菜单，向后查找，并确认扩展已经在设备上启用。</p>
-      <p><strong>为什么显示出来的内容不完整？</strong><br>请尽量使用原始导出视频，不要使用被其他服务或 App 二次压缩过的版本。</p>
-
-      <div class="footer-bar footer">
-        <span id="footer-note-zh-Hans">如需帮助，请联系支持邮箱 <a href="mailto:cameoshell09@gmail.com">cameoshell09@gmail.com</a></span>
-        <div class="footer-links">
-          <a id="footer-home-zh-Hans" href="./">首页</a>
-          <a id="footer-help-zh-Hans" href="help">帮助</a>
-          <a id="footer-support-zh-Hans" href="support">支持</a>
-          <a id="footer-privacy-zh-Hans" href="privacy-policy">隐私</a>
-          <a id="footer-contact-zh-Hans" href="mailto:cameoshell09@gmail.com">联系支持</a>
-        </div>
-      </div>
-    </div>
-
-    <div id="zh-Hant" class="lang-section">
-      <h2>視頻密信幫助</h2>
-
-      <h3>它能做什麼</h3>
-      <p>這個 App 可以把一句留言隱藏進看起來普通的影片裡，也可以在之後把隱藏訊息重新顯示出來。</p>
-
-      <h3>如何隱藏訊息</h3>
-      <p>1. 打開<strong>隱藏訊息</strong>頁面。</p>
-      <p>2. 輸入你想藏進去的文字。</p>
-      <p>3. 如果需要，可以選擇一種場景風格。</p>
-      <p>4. 點擊按鈕生成密信影片。</p>
-      <p>5. 儲存或分享匯出後的影片。</p>
-
-      <h3>如何查看隱藏訊息</h3>
-      <p>1. 打開<strong>查看隱藏訊息</strong>頁面。</p>
-      <p>2. 從照片或檔案中選擇一個密信影片。</p>
-      <p>3. 等待 App 讀取其中的隱藏內容。</p>
-      <p>4. 查看或複製還原出來的文字。</p>
-
-      <h3>如何使用分享擴充功能</h3>
-      <p>1. 在照片、檔案等其他 App 中打開密信影片。</p>
-      <p>2. 點擊系統分享按鈕。</p>
-      <p>3. 在分享選單中找到並點擊<strong>顯示隱藏訊息</strong>。</p>
-      <p>4. 隱藏文字會在擴充頁中顯示出來，並可直接複製。</p>
-
-      <h3>常見問題</h3>
-      <p><strong>為什麼讀不出來？</strong><br>請確認你選擇的是由視頻密信生成的原始影片，再重新嘗試一次。</p>
-      <p><strong>為什麼找不到分享擴充功能？</strong><br>請先打開系統分享選單，向後查找，並確認擴充功能已經在裝置上啟用。</p>
-      <p><strong>為什麼顯示出來的內容不完整？</strong><br>請盡量使用原始匯出影片，不要使用被其他服務或 App 二次壓縮過的版本。</p>
-
-      <div class="footer-bar footer">
-        <span id="footer-note-zh-Hant">如需協助，請聯絡支援信箱 <a href="mailto:cameoshell09@gmail.com">cameoshell09@gmail.com</a></span>
-        <div class="footer-links">
-          <a id="footer-home-zh-Hant" href="./">首頁</a>
-          <a id="footer-help-zh-Hant" href="help">幫助</a>
-          <a id="footer-support-zh-Hant" href="support">支援</a>
-          <a id="footer-privacy-zh-Hant" href="privacy-policy">隱私</a>
-          <a id="footer-contact-zh-Hant" href="mailto:cameoshell09@gmail.com">聯絡支援</a>
-        </div>
-      </div>
-    </div>
+    </main>
 
   </div>
 </body>

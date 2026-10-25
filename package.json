@@ -1,0 +1,11 @@
+{
+  "name": "secret-video-message-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
